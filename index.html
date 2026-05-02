@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Towny Town</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #1c1917;
+      --fg: #faf5ef;
+      --muted: #a8a29e;
+      --code: #292524;
+      --accent: #7dd3fc;
+    }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      margin: 0;
+      line-height: 1.5;
+    }
+    .wrap {
+      max-width: 52rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin: 0 0 0.5rem;
+    }
+    .sub {
+      color: var(--muted);
+      margin: 0 0 1.5rem;
+    }
+    a {
+      color: var(--accent);
+    }
+    code {
+      font-family: ui-monospace, "Cascadia Code", monospace;
+      font-size: 0.9em;
+      background: var(--code);
+      padding: 0.12em 0.4em;
+      border-radius: 4px;
+    }
+    pre {
+      background: var(--code);
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 0.85rem;
+    }
+    .frame-box {
+      margin: 1.5rem 0;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #44403c;
+      background: #0c0a09;
+      min-height: 420px;
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      height: min(72vh, 640px);
+      border: none;
+    }
+    .note {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: 0.75rem;
+    }
+    ol {
+      padding-left: 1.25rem;
+    }
+    li {
+      margin: 0.35rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Towny Town</h1>
+    <p class="sub">
+      Pygame wave-survival game. A normal <code>index.html</code> cannot run Python by itself — the playable
+      web build is created with <a href="https://pygame-web.github.io/wiki/pygbag/">pygbag</a> (WebAssembly).
+    </p>
+
+    <h2>One-time: create the web build</h2>
+    <p><strong>Windows:</strong> double-click <code>build_web.bat</code>, then <code>serve_web.bat</code> to test in the browser.</p>
+    <ol>
+      <li>Install Python 3.11+ and pip.</li>
+      <li>From <strong>this folder</strong> (where <code>main.py</code> lives):<br />
+        <pre><code>pip install pygbag
+pygbag --build --title "Towny Town" .</code></pre>
+      </li>
+      <li>Pygbag writes the real game page under <code>build/web/</code> (many files + its own <code>index.html</code>).</li>
+    </ol>
+
+    <h2>Put it on a website</h2>
+    <ul>
+      <li><strong>GitHub Pages / Netlify / Cloudflare:</strong> upload the <strong>contents</strong> of
+        <code>build/web/</code> (not the whole repo). The entry file will be pygbag’s <code>index.html</code>.</li>
+      <li><strong>This file:</strong> optional landing page. The iframe below loads
+        <code>build/web/index.html</code> if that folder exists next to this file.</li>
+    </ul>
+
+    <h2>Play (iframe)</h2>
+    <div class="frame-box">
+      <iframe
+        title="Towny Town (pygbag)"
+        src="build/web/index.html"
+      ></iframe>
+    </div>
+    <p class="note">
+      If you see a blank frame, run the build commands above first. For hosting, you usually deploy
+      <code>build/web/</code> as the site root and can delete this landing page.
+    </p>
+  </div>
+</body>
+</html>

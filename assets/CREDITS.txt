@@ -1,0 +1,77 @@
+Towny Town — third-party art (see licenses before redistributing)
+
+1) Outdoor tiles, again — Michele "Buch" Bucelli
+   https://opengameart.org/content/outdoor-tiles-again
+   License: CC-BY 3.0 — credit the author and link to the OGA page.
+   File: buch-outdoor-sheet.png (downloaded as sheet_19.png from OpenGameArt)
+
+2) [LPC] Plant Repack — various LPC authors (see credits.zip on the asset page)
+   https://opengameart.org/content/lpc-plant-repack
+   License: CC-BY-SA 3.0 and GPL 3.0 (dual-licensed; follow the terms you choose)
+   File: lpc-plant-repack.png
+
+3) Animated Top Down Survivor Player — Riley Gombart
+   https://opengameart.org/content/animated-top-down-survivor-player
+   License: CC-BY 3.0 — credit “Riley Gombart”
+   File: Top_Down_Survivor.zip (extracted to assets/survivor_packed/)
+
+4) Bat sprite — bagzie
+   https://opengameart.org/content/bat-sprite
+   License: OGA-BY 3.0
+   File: bat-sprite.png
+
+5) Bullet Collection 1 — Master484
+   https://opengameart.org/content/bullet-collection-1-m484
+   License: CC0 (public domain)
+   File: M484BulletCollection1.png
+
+6) [LPC] Goblin — Stephen "Redshrike" Challener (art), William.Thompsonj (contributor)
+   https://opengameart.org/content/lpc-goblin
+   License: CC-BY 3.0 / OGA-BY 3.0 / GPL 2.0+ / CC-BY 4.0 (see asset page)
+   Files: goblin.png, goblinsword.png (boss wave uses goblinsword until LPC Imp zip is added locally)
+
+7) 16x16 / 32x32 RPG enemies (updated) — Stephen Challener (Redshrike)
+   https://opengameart.org/content/16x16-16x24-32x32-rpg-enemies-updated
+   License: CC-BY 3.0 / OGA-BY 3.0
+   File: rpgcritters.png
+
+8) Scifi creature tileset (32×32 icons) — Stephen Challener (Redshrike)
+   https://opengameart.org/content/scifi-creature-tileset-mini-32x32-scifi-creature-icons
+   License: CC-BY 3.0 / OGA-BY 3.0
+   File: scifi-creatures.png
+
+9) [LPC] Spider — Stephen "Redshrike" Challener (art), William.Thompsonj (contributor)
+   https://opengameart.org/content/lpc-spider
+   License: CC-BY 3.0 / OGA-BY 3.0 / GPL 2.0+ / CC-BY 4.0 (see asset page)
+   File: LPC_Spiders.zip (extracted at runtime to assets/spider_packed/)
+
+10) Hit Animation 2 (Hit-Yellow) — Sinestesia
+   https://opengameart.org/content/hit-animation-2-frame-by-frame
+   License: CC0
+   File: Hit-Yellow.png
+
+11) Pixel Animated vFXs — zonked
+   https://opengameart.org/content/pixel-animated-vfxs
+   License: CC0
+   File: pixel-fxs.psd (layer groups baked at runtime via psd-tools)
+
+Optional: [LPC] Imp (boss art) — same authors as other LPC commissions; CDN zip was unavailable during setup.
+   https://opengameart.org/content/lpc-imp
+   If you add the extracted frames under assets/, you can wire them in place of the goblinsword boss.
+
+12) Music Stand (furniture tile) — Jordan Irwin (AntumDeluge)
+   https://opengameart.org/content/music-stand
+   License: CC-BY 3.0+ / OGA-BY 3.0+ — credit the author and link to the OGA page.
+   File: music_stand.png
+
+13) Super Epic Weapons Fantasy Pack FREE — babysamurai
+   https://opengameart.org/content/super-epic-weapons-fantasy-pack-free
+   License: CC0
+   File: epic_weapons.png (sheet downloaded as rSvHtV.png)
+
+Optional drop-in PNGs (not bundled): 20/20–style glasses and Sacred Heart–style icons
+   are drawn procedurally by default. Official Binding of Isaac sprites are copyrighted;
+   you may place your own legally acquired art as assets/twenty_twenty.png or
+   assets/sacred_heart.png if you wish.
+
+This project is not affiliated with Stardew Valley, ConcernedApe, or The Binding of Isaac.
